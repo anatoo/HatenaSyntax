@@ -15,12 +15,11 @@
     ],
     "autoload": {
         "psr-0" : {
-            "HatenaSyntax" : "lib/",
-            "PEG" : "vendor/phppeg/phppeg/code/"
+            "HatenaSyntax" : "lib"
         }
     },
     "require": {
         "php": ">=5.2.0",
-        "phppeg/phppeg": ">=1.0.0"
+        "phppeg/phppeg": "dev-master"
     }
 }
