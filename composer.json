@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-0" : {
-            "HatenaSyntax" : "lib"
+            "HatenaSyntax" : "src"
         }
     },
     "require": {
