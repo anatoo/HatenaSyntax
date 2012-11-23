@@ -1,9 +1,9 @@
 <?php
 /**
  * @package HatenaSyntax
- * @author anatoo<anatoo@nequal.jp>
+ * @author KUBOTA Mitsunori <anatoo.jp@gmail.com>
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
- * @version $Id: CommentRemover.php 2304 2011-01-04 17:48:55Z anatoo $
+ * 
  */
 
 class HatenaSyntax_CommentRemover

@@ -1,0 +1,26 @@
+{
+    "name": "hatenasyntax/hatenasyntax",
+    "type": "library",
+    "description": "Hatena Notation Parser",
+    "keywords": ["parser","hatena"],
+    "homepage": "http://github.com/anatoo/HatenaSyntax",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitsunori Kubota",
+            "email": "anatoo.jp@gmail.com",
+            "homepage": "http://anatoo.jp",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "HatenaSyntax" : "lib/",
+            "PEG" : "vendor/phppeg/phppeg/code/"
+        }
+    },
+    "require": {
+        "php": ">=5.2.0",
+        "phppeg/phppeg": ">=1.0.0"
+    }
+}

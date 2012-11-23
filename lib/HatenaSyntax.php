@@ -1,14 +1,12 @@
 <?php
 /**
  * @package HatenaSyntax
- * @author anatoo<anatoo@nequal.jp>
+ * @author KUBOTA Mitsunori <anatoo.jp@gmail.com>
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
- * @version $Id: HatenaSyntax.php 2307 2011-01-04 18:00:40Z anatoo $
+ * 
  */
 
-if (!class_exists('PEG')) {
-    include_once 'PEG.php';
-}
+/*
 include_once dirname(__FILE__) . '/HatenaSyntax/Node.php';
 include_once dirname(__FILE__) . '/HatenaSyntax/Regex.php';
 include_once dirname(__FILE__) . '/HatenaSyntax/Locator.php';
@@ -35,6 +33,7 @@ include_once dirname(__FILE__) . '/HatenaSyntax/Tree/INode.php';
 include_once dirname(__FILE__) . '/HatenaSyntax/Tree/Node.php';
 include_once dirname(__FILE__) . '/HatenaSyntax/Tree/Root.php';
 include_once dirname(__FILE__) . '/HatenaSyntax/Tree/Leaf.php';
+*/
 
 class HatenaSyntax
 {

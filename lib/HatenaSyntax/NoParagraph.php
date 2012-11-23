@@ -1,9 +1,9 @@
 <?php
 /**
  * @package HatenaSyntax
- * @author anatoo<anatoo@nequal.jp>
+ * @author KUBOTA Mitsunori <anatoo.jp@gmail.com>
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
- * @version $Id: Paragraph.php 1574 2010-01-25 08:28:15Z anatoo $
+ * 
  */
 
 class HatenaSyntax_NoParagraph implements PEG_IParser

@@ -1,9 +1,9 @@
 <?php
 /**
  * @package HatenaSyntax
- * @author anatoo<anatoo@nequal.jp>
+ * @author KUBOTA Mitsunori <anatoo.jp@gmail.com>
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
- * @version $Id: Quote.php 1899 2010-06-05 16:02:02Z anatoo $
+ * 
  */
 
 class HatenaSyntax_Quote implements PEG_IParser

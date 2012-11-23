@@ -1,9 +1,9 @@
 <?php
 /**
  * @package HatenaSyntax
- * @author anatoo<anatoo@nequal.jp>
+ * @author KUBOTA Mitsunori <anatoo.jp@gmail.com>
  * @license http://www.opensource.org/licenses/mit-license.php MIT License
- * @version $Id: TOCRenderer.php 1913 2010-06-15 23:55:57Z anatoo $
+ * 
  */
 
 class HatenaSyntax_TOCRenderer
