@@ -100,10 +100,12 @@ class HatenaSyntax
      * @param Array
      * @return string
      */
-    static function render($str, Array $config = array())
+    static function render($str, Array $config = array(), HatenaSyntax_Renderer $renderer = null)
     {
         $node = self::parse($str);
-        $renderer = new HatenaSyntax_Renderer($config);
+        if (is_null($renderer)) {
+            $renderer = new HatenaSyntax_Renderer($config);
+        }
         return $renderer->render($node);
     }
     
